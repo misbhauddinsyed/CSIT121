@@ -1,0 +1,54 @@
+html{
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+    height: 100%;
+}
+body{
+    background-image: url('./img/realmadridlogo.png');
+    padding: 3px;
+    opacity: 0.9;
+}
+.cen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+p{
+    text-align: center;
+}
+header{
+    background-color: coral;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+}
+a:link, a:visited {
+    background-color: dodgerblue;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: gold;
+  }
+nav{
+    height: 25px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
